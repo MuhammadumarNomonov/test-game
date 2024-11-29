@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/my_fon1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <!-- Misol uchun matn -->
+    <TextView
+        android:id="@+id/txt_misol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="#0EE417"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- RadioGroup (Javoblar) -->
+    <RadioGroup
+        android:id="@+id/rad_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/rad_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A_javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B_javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C_javob"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rad_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D_javob"
+            android:textSize="30sp" />
+    </RadioGroup>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:layout_gravity="center" />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
